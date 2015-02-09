@@ -49,7 +49,7 @@ body {
 
 .navigation a:hover {
     color: #E53935;
-    border-bottom: 5px solid #E53935;
+    border-bottom: 3px solid #E53935;
 }
 
 .content {
