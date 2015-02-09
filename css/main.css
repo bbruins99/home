@@ -1,3 +1,53 @@
 html {
+    font-family: 'Kreon', serif;
+    background: url('background/white_wall_hash.png');
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.web_title {
+    font-family: 'Germania One', cursive;
+    font-size: 7.5em;
+    text-align: center;
+}
+
+.web_title a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}
+
+.web_title a:hover {
+    color: #E53935;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation a {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 1em;
+    font-weight: 600;
+    -webkit-transition: color .5s, border-bottom .3s;  /* For Safari 3.1 to 6.0 */
+    transition: color .5s, border-bottom .3s;
+}
+
+.navigation a:hover {
+    color: #E53935;
+    border-bottom: 5px solid #E53935;
 }
