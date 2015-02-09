@@ -51,3 +51,8 @@ body {
     color: #E53935;
     border-bottom: 5px solid #E53935;
 }
+
+.notdone {
+    font-size: 3em;   
+}
+}
