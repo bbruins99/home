@@ -52,7 +52,10 @@ body {
     border-bottom: 5px solid #E53935;
 }
 
+.content {
+    text-align: center;
+}
+
 .notdone {
     font-size: 3em;   
-}
 }
